@@ -1,0 +1,34 @@
+/**********
+Styles - Mobile first
+**********/
+.recipe-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-list {
+  text-align: center;
+}
+
+.recipe-detail {
+  text-align: center;
+}
+
+/**********
+Desktop
+**********/
+
+@media all and (min-width: 750px) {
+  .recipe-container {
+    flex-direction: row;
+  }
+  .recipe-list {
+    width: 30%;
+  }
+
+  .recipe-detail {
+    width: 60%;
+  }
+}

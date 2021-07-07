@@ -1,1 +1,10 @@
-<p>recipe-list works!</p>
+<button>New Recipe</button>
+<div *ngFor="let recipe of recipes">
+    <div>
+        <h4>{{recipe.name}}</h4>
+        <p>{{recipe.description}}</p>
+        <img src="{{recipe.imagePath}}" alt="test image" class="test-image">
+    </div>
+</div>
+
+<app-recipe-item></app-recipe-item>

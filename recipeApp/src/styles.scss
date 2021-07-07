@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+/**********
+Variables
+**********/
+$color-kh-turquoise: #00778b;
+$color-kh-teal: #00b7db;
+$color-kh-purple: #8c30f5;
+$color-kh-purple-hover: #8c30f5af;
+$color-kh-grey: #6d6e71;
+
+.root {
+  --color-kh-grey: #6d6e71;
+}
+html {
+  height: 100%;
+  font-family: "Helvetica";
+}
