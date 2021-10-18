@@ -4,4 +4,9 @@
         <hr>
         <p>The Shopping List Here</p>
     </div>
+    <div *ngFor="let ingredient of ingedients">
+        <div class="test-text">
+            {{ingredient.name}} ({{ingredient.amount}})
+        </div>
+    </div>
 </div>
